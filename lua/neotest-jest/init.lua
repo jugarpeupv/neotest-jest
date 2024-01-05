@@ -407,9 +407,9 @@ function adapter.build_spec(args)
     "--testLocationInResults",
     "--verbose",
     "--json",
+    "--forceExit",
     "--outputFile=" .. results_path,
     "--testNamePattern=" .. testNamePattern,
-    "--forceExit",
     pos.path,
   })
 
